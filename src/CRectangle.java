@@ -1,10 +1,14 @@
 public class CRectangle {
     private double h,w;
 
-    public CRectangle(double h1, double w1) {
-        settHight(h1);
-        setWidth(w1);
+    public CRectangle(double h, double w) {
+        this.h = h;
+        this.w = w;
     }
+
+    public CRectangle(){
+
+}
 
     public void settHight(double h1){
         if(h1>0){
